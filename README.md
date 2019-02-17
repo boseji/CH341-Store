@@ -1,21 +1,21 @@
 # CH341-Store
-Documents and Software Related to the famous CH341a used in I2C/SPI Flash Programmers also called as Bios Programmers
+Documents and Software Related to the famous CH341a used in I2C/SPI Flash Programmers also called as BIOS Programmers
 
-Please note that this repository is a Coagulation of know-how from diffrent sources.
+Please note that this repository is a Coagulation of know-how from different sources.
 
 ![CH341A Devices](https://1.bp.blogspot.com/-RFzfABqVamg/WlEZ-s0FkxI/AAAAAAAAIqg/3L0JBCCQN9sNm4e7ST9Csczwwu7tO1OzgCLcBGAs/s1600/ch341a_products.png)
 > Source : https://www.onetransistor.eu/2017/08/ch341a-mini-programmer-schematic.html
 
 ## About CH341
 
-This is versetaile USB to multi-protocol converter chip.
+This is versatile USB to multi-protocol converter chip.
 
-There are 4 major items that becoe clear from the enclosed **[Datasheet(English)](https://github.com/boseji/CH341-Store/raw/master/CH341_EN.pdf)**
+There are 4 major items that become clear from the enclosed **[Datasheet(English)](https://github.com/boseji/CH341-Store/raw/master/CH341_EN.pdf)**
 
-  * UART - The chip can be used as a USB to UART converter. It can also be used for RS-485 since it has automatic driver convtrol pin also available.
-  * Synchronous Serial - I2C and SPI - The chip has 3 chip selct pins and Multi-mode support for SPI prototocol. Also the chip has dedicated I2C pins.
+  * UART - The chip can be used as a USB to UART converter. It can also be used for RS-485 since it has automatic driver control pin also available.
+  * Synchronous Serial - I2C and SPI - The chip has 3 chip select pins and Multi-mode support for SPI protocol. Also the chip has dedicated I2C pins.
   * Parallel Interface - This interface can be used to talk to parallel memory Bus with all the required control signals
-  * Printer Port - The deivice can emulate a EPP Parallel Port over USB to be able to connect to older printers .etc.
+  * Printer Port - The device can emulate a EPP Parallel Port over USB to be able to connect to older printers .etc.
 
 ## Attributions
 
@@ -33,7 +33,7 @@ There are 4 major items that becoe clear from the enclosed **[Datasheet(English)
     
 ## CH341a based Programmer
 
-The Main uses that this chip finds is programing SPI flash chips. These SPI flash chips are ofen used in the BIOS of many computer cards. Infact most of the WiFi routers use these SPI flash chips to store the embedded linux image. So ideally these programmers can actually help you swap the linux image on a WiFi Router. Also it has been reported that this programmer can be used to recover bricked or locked out Bios from laptops.
+The Main uses that this chip finds is programing SPI flash chips. These SPI flash chips are often used in the BIOS of many computer cards. In fact most of the WiFi routers use these SPI flash chips to store the embedded Linux image. So ideally these programmers can actually help you swap the Linux image on a WiFi Router. Also it has been reported that this programmer can be used to recover bricked or locked out BIOS from laptops.
 
 Lets look at how the programmer looks like:
 
