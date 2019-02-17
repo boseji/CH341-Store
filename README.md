@@ -78,3 +78,10 @@ There is not much support for MAC from the manufacturer.
 We still did not find any clean programmer application, that does
 not contain any viruses. Hence if any one can help us provide a clean
 programmer application - please let us know.
+
+Here are few Open-source projects targeting this platform:
+
+ - https://github.com/setarcos/ch341prog
+ - https://github.com/stefanct/ch341eepromtool
+ - https://www.flashrom.org/Flashrom
+
