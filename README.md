@@ -75,7 +75,6 @@ There is not much support for MAC from the manufacturer.
 
 ## CH341a Programmer Application
 
-We could find only one working version of the programmer **v1.29**, though we got other versions but they do not work.
-
-Here is the working link:
-https://github.com/boseji/CH341-Store/raw/master/WORKING-CH341A-programmer-software-1.29.zip
+We still did not find any clean programmer application, that does
+not contain any viruses. Hence if any one can help us provide a clean
+programmer application - please let us know.
