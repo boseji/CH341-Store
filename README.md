@@ -30,7 +30,14 @@ There are 4 major items that become clear from the enclosed **[Datasheet(English
   * ***Jiangsu QinHeng Ltd*** Company creating these wonderful CH341a ICs http://www.wch.cn/
     - Translated Version of the Website: https://translate.google.com/translate?hl=en&sl=zh-CN&u=http://wch.cn/
     - Product Page of **CH341a** IC : https://translate.google.com/translate?depth=1&hl=en&rurl=translate.google.com&sl=zh-CN&sp=nmt4&u=http://www.wch.cn/products/CH341.html
-    
+  * [**Alexander Gavrilov**](https://github.com/dartraiden) - Provided us with the following insight:
+    - OpenSource usbASP Flash Programmer https://github.com/nofeletru/UsbAsp-flash
+    - Avrdude version supporting CH341a https://github.com/Alx2000y/avrdude_ch341a
+    - Ch341Programmer - Closed Source Links: http://televid-sib.ru/index.php?topic=42039.msg161311;topicseen#msg161311
+    - Colibri - Closed Source Links: http://apkservice.ru/articles/page,1,7,28-soft-dlya-programmatora-na-ch341a.html
+    - Postal3 - Closed Source Links: https://monitor.net.ru/forum/threads/436716/
+    - postal3_ch341 - Closed Source Links: http://docs.expressvl.ru/postal3_ch341.html
+
 ## CH341a based Programmer
 
 The Main uses that this chip finds is programing SPI flash chips. These SPI flash chips are often used in the BIOS of many computer cards. In fact most of the WiFi routers use these SPI flash chips to store the embedded Linux image. So ideally these programmers can actually help you swap the Linux image on a WiFi Router. Also it has been reported that this programmer can be used to recover bricked or locked out BIOS from laptops.
@@ -85,3 +92,27 @@ Here are few Open-source projects targeting this platform:
  - https://github.com/stefanct/ch341eepromtool
  - https://www.flashrom.org/Flashrom
 
+Here are few more Open-Source projects shared with us by [*Alexander Gavrilov*](https://github.com/dartraiden)
+
+  - OpenSource usbASP Flash Programmer https://github.com/nofeletru/UsbAsp-flash
+  - Avrdude version supporting CH341a https://github.com/Alx2000y/avrdude_ch341a
+
+Here are a few Close-Source links shared with us by [*Alexander Gavrilov*](https://github.com/dartraiden)
+
+  - Ch341Programmer http://televid-sib.ru/index.php?topic=42039.msg161311;topicseen#msg161311
+  - Colibri http://apkservice.ru/articles/page,1,7,28-soft-dlya-programmatora-na-ch341a.html
+  - Postal3 https://monitor.net.ru/forum/threads/436716/
+  - postal3_ch341 http://docs.expressvl.ru/postal3_ch341.html
+
+## Help Needed
+
+Please feel free to contribute anything you believe would be helpful for the community.
+
+Current parts that need help:
+1. **Verifying closed source *CH341a Programmer Application* listed** Last time we removed the items since community complained of virus contained in some distributions. We request help to verify the programmer solutions are safe to use before hosting them here.
+2. **Translation** We need help with correct translation of documentation. This might be from other languages to common English.
+3. **Tutorials** We need help with tutorials for building and using Open Source or Closed-Source applications for *CH341a Programmer Application*.
+
+
+
+  
