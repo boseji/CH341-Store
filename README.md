@@ -46,6 +46,11 @@ There are 4 major items that become clear from the enclosed **[Datasheet(English
       https://www.youtube.com/watch?v=L0ChYNwunUE
     - **flashrom** Tutorial for Windows https://www.win-raid.com/t796f16-Guide-Using-CH-A-based-programmer-to-flash-SPI-EEPROM-5.html#msg41915
     - *How to do **HP PAVILION 500-0XX/ENVY 700-0XX BIOS RECOVERY*** https://vdhout.nl/2018/02/hp-pavilion-500-0xx-envy-700-0xx-bios-recovery
+    - Github User [BigBox2020](https://github.com/BigBox2020) has been kind enough to provide us with the Virus report
+      of the above packages.
+    - Virus total report for *ch341a programmer v1.13* https://www.virustotal.com/gui/file/0b6aba1bfa041ea3484cb4e6750427de468ece553a9461dba388fee16ad3669a/detection
+    - Virus total report for **flashrom** windows 
+    https://www.virustotal.com/gui/file/0eb1e5cde08fa44e015c5b56d01e330078a32b4efad4336513ee789f974b559c/detection
 
 ## CH341a based Programmer
 
@@ -91,15 +96,24 @@ There is not much support for MAC from the manufacturer.
 
 ## CH341a Programmer Application
 
-We still did not find any clean programmer application, that does
+~~We still did not find any clean programmer application, that does
 not contain any viruses. Hence if any one can help us provide a clean
-programmer application - please let us know.
+programmer application - please let us know.~~
+
+We have finally found one piece of closed source software for programming.
+This was contributed by Github User [BigBox2020](https://github.com/BigBox2020).
+Another is usbASP Flash Programmer .aka. **AsProgrammer**. This is an 
+*Open-Source* alternative contributed by [Alexander Gavrilov](https://github.com/dartraiden).
+
+Please find the links to the respective contributions below.
 
 Here are few Open-source projects targeting this platform:
 
  - https://github.com/setarcos/ch341prog
  - https://github.com/stefanct/ch341eepromtool
  - https://www.flashrom.org/Flashrom
+
+### Contribution by [*Alexander Gavrilov*](https://github.com/dartraiden)
 
 Here are few more Open-Source projects shared with us by [*Alexander Gavrilov*](https://github.com/dartraiden)
 
@@ -115,17 +129,23 @@ Here are a few Close-Source links shared with us by [*Alexander Gavrilov*](https
   - Colibri http://apkservice.ru/articles/page,1,7,28-soft-dlya-programmatora-na-ch341a.html
   - Postal3 https://monitor.net.ru/forum/threads/436716/
   - postal3_ch341 http://docs.expressvl.ru/postal3_ch341.html
-  
+
+### Contribution by Github User [BigBox2020](https://github.com/BigBox2020)
+
 Here are a few Closed-Source links shared with us by Github User [BigBox2020](https://github.com/BigBox2020):
 
  - **Ch341 programmer v1.13** https://drive.google.com/file/d/0ByEQKtsOckWBUVBqajZOUGtLcnM/view
  - Video Tutorial on using **Ch341 programmer v1.13** https://www.youtube.com/watch?v=L0ChYNwunUE
+ - **Ch341 programmer v1.13** has been verified using Virus Total service:
+   https://www.virustotal.com/gui/file/0b6aba1bfa041ea3484cb4e6750427de468ece553a9461dba388fee16ad3669a/detection
 
 Here are a few Open-Source tool **flashrom** links shared with us by Github User [BigBox2020](https://github.com/BigBox2020):
 
  - **flashrom** for windows Tutorial and package 
    https://www.win-raid.com/t796f16-Guide-Using-CH-A-based-programmer-to-flash-SPI-EEPROM-5.html#msg41915
  - *How to do **HP PAVILION 500-0XX/ENVY 700-0XX BIOS RECOVERY*** https://vdhout.nl/2018/02/hp-pavilion-500-0xx-envy-700-0xx-bios-recovery
+  - Note that the **flashrom** has been verified using Virus total:
+    https://www.virustotal.com/gui/file/0eb1e5cde08fa44e015c5b56d01e330078a32b4efad4336513ee789f974b559c/detection
 
 ## Help Needed
 
