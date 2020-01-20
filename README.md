@@ -31,12 +31,21 @@ There are 4 major items that become clear from the enclosed **[Datasheet(English
     - Translated Version of the Website: https://translate.google.com/translate?hl=en&sl=zh-CN&u=http://wch.cn/
     - Product Page of **CH341a** IC : https://translate.google.com/translate?depth=1&hl=en&rurl=translate.google.com&sl=zh-CN&sp=nmt4&u=http://www.wch.cn/products/CH341.html
   * [**Alexander Gavrilov**](https://github.com/dartraiden) - Provided us with the following insight:
-    - OpenSource usbASP Flash Programmer https://github.com/nofeletru/UsbAsp-flash
+    - OpenSource usbASP Flash Programmer .aka. **AsProgrammer** https://github.com/nofeletru/UsbAsp-flash
+      *Windows GUI Based programmer significantly better performance than closed-source version* see [Issue #5](https://github.com/boseji/CH341-Store/issues/5#issuecomment-574433239)
     - Avrdude version supporting CH341a https://github.com/Alx2000y/avrdude_ch341a
     - Ch341Programmer - Closed Source Links: http://televid-sib.ru/index.php?topic=42039.msg161311;topicseen#msg161311
     - Colibri - Closed Source Links: http://apkservice.ru/articles/page,1,7,28-soft-dlya-programmatora-na-ch341a.html
     - Postal3 - Closed Source Links: https://monitor.net.ru/forum/threads/436716/
     - postal3_ch341 - Closed Source Links: http://docs.expressvl.ru/postal3_ch341.html
+  * Github User [BigBox2020](https://github.com/BigBox2020) has provided us with **flashrom**
+    instructions and some closed-source programming options.
+    Here are the contributions:
+    - *ch341a programmer v1.13* https://drive.google.com/file/d/0ByEQKtsOckWBUVBqajZOUGtLcnM/view
+    - [Video Tutorial](https://www.youtube.com/watch?v=L0ChYNwunUE) on how to use *ch341a programmer v1.13*
+      https://www.youtube.com/watch?v=L0ChYNwunUE
+    - **flashrom** Tutorial for Windows https://www.win-raid.com/t796f16-Guide-Using-CH-A-based-programmer-to-flash-SPI-EEPROM-5.html#msg41915
+    - *How to do **HP PAVILION 500-0XX/ENVY 700-0XX BIOS RECOVERY*** https://vdhout.nl/2018/02/hp-pavilion-500-0xx-envy-700-0xx-bios-recovery
 
 ## CH341a based Programmer
 
@@ -94,7 +103,10 @@ Here are few Open-source projects targeting this platform:
 
 Here are few more Open-Source projects shared with us by [*Alexander Gavrilov*](https://github.com/dartraiden)
 
-  - OpenSource usbASP Flash Programmer https://github.com/nofeletru/UsbAsp-flash
+  - OpenSource usbASP Flash Programmer .aka. **AsProgrammer** https://github.com/nofeletru/UsbAsp-flash
+    > [*Alexander Gavrilov*](https://github.com/dartraiden) has confirmed that **AsProgrammer** is *very*
+    > *common among the Russian users*. This has a *good GUI and works better than the closed source version*
+    > as per [Issue #5](https://github.com/boseji/CH341-Store/issues/5#issuecomment-574433239).
   - Avrdude version supporting CH341a https://github.com/Alx2000y/avrdude_ch341a
 
 Here are a few Close-Source links shared with us by [*Alexander Gavrilov*](https://github.com/dartraiden)
@@ -103,6 +115,17 @@ Here are a few Close-Source links shared with us by [*Alexander Gavrilov*](https
   - Colibri http://apkservice.ru/articles/page,1,7,28-soft-dlya-programmatora-na-ch341a.html
   - Postal3 https://monitor.net.ru/forum/threads/436716/
   - postal3_ch341 http://docs.expressvl.ru/postal3_ch341.html
+  
+Here are a few Closed-Source links shared with us by Github User [BigBox2020](https://github.com/BigBox2020):
+
+ - **Ch341 programmer v1.13** https://drive.google.com/file/d/0ByEQKtsOckWBUVBqajZOUGtLcnM/view
+ - Video Tutorial on using **Ch341 programmer v1.13** https://www.youtube.com/watch?v=L0ChYNwunUE
+
+Here are a few Open-Source tool **flashrom** links shared with us by Github User [BigBox2020](https://github.com/BigBox2020):
+
+ - **flashrom** for windows Tutorial and package 
+   https://www.win-raid.com/t796f16-Guide-Using-CH-A-based-programmer-to-flash-SPI-EEPROM-5.html#msg41915
+ - *How to do **HP PAVILION 500-0XX/ENVY 700-0XX BIOS RECOVERY*** https://vdhout.nl/2018/02/hp-pavilion-500-0xx-envy-700-0xx-bios-recovery
 
 ## Help Needed
 
