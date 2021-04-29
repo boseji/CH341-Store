@@ -51,6 +51,13 @@ There are 4 major items that become clear from the enclosed **[Datasheet(English
     - Virus total report for *ch341a programmer v1.13* https://www.virustotal.com/gui/file/0b6aba1bfa041ea3484cb4e6750427de468ece553a9461dba388fee16ad3669a/detection
     - Virus total report for **flashrom** windows 
     https://www.virustotal.com/gui/file/0eb1e5cde08fa44e015c5b56d01e330078a32b4efad4336513ee789f974b559c/detection
+ * Github User [DSchndr](https://github.com/DSchndr) has provided us with an **Parallel Programmer**.
+   This project uses CH341a as **parallel memory programmer**. It requires 2 addtional MCP23017 running on (i2c).
+   The project also includes a GUI based on C# for controlling the programmer.
+   Here are the contrinutions:
+   - Project Repository : https://github.com/DSchndr/ch341a_parallelprog
+   - This project also contributes a C# based GUI to help in programming target ICs.
+
 
 ## CH341a based Programmer
 
@@ -146,6 +153,14 @@ Here are a few Open-Source tool **flashrom** links shared with us by Github User
  - *How to do **HP PAVILION 500-0XX/ENVY 700-0XX BIOS RECOVERY*** https://vdhout.nl/2018/02/hp-pavilion-500-0xx-envy-700-0xx-bios-recovery
   - Note that the **flashrom** has been verified using Virus total:
     https://www.virustotal.com/gui/file/0eb1e5cde08fa44e015c5b56d01e330078a32b4efad4336513ee789f974b559c/detection
+    
+### Contribution by Github User [DSchndr](https://github.com/DSchndr)
+
+   This project uses CH341a as **parallel memory programmer**. It requires 2 adtional MCP23017 running on (i2c).
+   The project also includes a GUI based on C# for controlling the programmer.
+   Here are the contrinutions:
+   - Project Repository : https://github.com/DSchndr/ch341a_parallelprog
+   - This project also contributes a C# based GUI to help in programming target ICs.
 
 ## Help Needed
 
