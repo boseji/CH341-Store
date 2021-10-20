@@ -52,12 +52,14 @@ There are 4 major items that become clear from the enclosed **[Datasheet(English
     - Virus total report for **flashrom** windows 
     https://www.virustotal.com/gui/file/0eb1e5cde08fa44e015c5b56d01e330078a32b4efad4336513ee789f974b559c/detection
  * Github User [DSchndr](https://github.com/DSchndr) has provided us with an **Parallel Programmer**.
-   This project uses CH341a as **parallel memory programmer**. It requires 2 addtional MCP23017 running on (i2c).
+   This project uses CH341a as **parallel memory programmer**. It requires 2 additional MCP23017 running on (i2c).
    The project also includes a GUI based on C# for controlling the programmer.
-   Here are the contrinutions:
+   Here are the contributions:
    - Project Repository : https://github.com/DSchndr/ch341a_parallelprog
    - This project also contributes a C# based GUI to help in programming target ICs.
-
+ * Github User [eternalphane](https://github.com/eternalphane) has shared with us a link to **SNANDer - Serial Nor/nAND/Eeprom programmeR**. This is a tool designed by [McMCCRU](https://github.com/McMCCRU). This is a nice command line program for working with **I2C/SPI EEPROM** chips. This project presently is supported only on **Linux** as per the [repository](https://github.com/McMCCRU/SNANDer). Hope that there are ways to compile it for Windows and Mac.
+   Here are the contributions:
+   - Project Repository : https://github.com/McMCCRU/SNANDer
 
 ## CH341a based Programmer
 
@@ -156,11 +158,17 @@ Here are a few Open-Source tool **flashrom** links shared with us by Github User
     
 ### Contribution by Github User [DSchndr](https://github.com/DSchndr)
 
-   This project uses CH341a as **parallel memory programmer**. It requires 2 adtional MCP23017 running on (i2c).
+   This project uses CH341a as **parallel memory programmer**. It requires 2 additional MCP23017 running on (i2c).
    The project also includes a GUI based on C# for controlling the programmer.
-   Here are the contrinutions:
+   Here are the contributions:
    - Project Repository : https://github.com/DSchndr/ch341a_parallelprog
    - This project also contributes a C# based GUI to help in programming target ICs.
+
+### Contributions by Github User [McMCCRU](https://github.com/McMCCRU), Thanks to Github User [eternalphane](https://github.com/eternalphane) for sharing this link.
+
+   **SNANDer - Serial Nor/nAND/Eeprom programmeR** - This is a nice command line program for working with **I2C/SPI EEPROM** chips. This project presently is supported only on **Linux** as per the [repository](https://github.com/McMCCRU/SNANDer). Hope that there are ways to compile it for Windows and Mac.
+   Here are the contributions:
+   - Project Repository : https://github.com/McMCCRU/SNANDer
 
 ## Help Needed
 
@@ -174,3 +182,5 @@ Current parts that need help:
 
 
   
+
+
