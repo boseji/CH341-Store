@@ -170,6 +170,12 @@ Here are a few Open-Source tool **flashrom** links shared with us by Github User
    Here are the contributions:
    - Project Repository : https://github.com/McMCCRU/SNANDer
 
+### [UsbAsp-flash](https://github.com/nofeletru/UsbAsp-flash)
+
+> Program allow you to program flash memory on the protocols spi, I2C, MicroWire. Supports CH341a, UsbAsp, AVRISP(LUFA), Arduino, FT232H.
+
+<https://github.com/nofeletru/UsbAsp-flash>
+
 ## Help Needed
 
 Please feel free to contribute anything you believe would be helpful for the community.
